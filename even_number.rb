@@ -13,5 +13,8 @@ class EvenNumber
     @value +=2
   end
 
+  def <=> (other)
+    @value <=> other.value
+  end
 
 end

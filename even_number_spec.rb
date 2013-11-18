@@ -12,7 +12,9 @@ describe EvenNumber do
   end
 
   it "should compare even numbers" do
-      pending
+    (EvenNumber.new(40).value < EvenNumber.new(42).value).should be true
+    (EvenNumber.new(42).value > EvenNumber.new(40).value).should be true
+
   end
 
   it 'should generate a range of even numbers' do
