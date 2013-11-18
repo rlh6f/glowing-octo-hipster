@@ -2,3 +2,7 @@ Q1: - What are the three uses of the curly brackets {} in Ruby?
 1) to designate code blocks in place of do/end
 2) to create a new hash object
 3) string variable interpolation, used in context with double quotes and "#{variable}"
+
+Q2: What is a regular expression and what is a common use for them?
+A regular expression is a string pattern matching language that is used to find, extract, and replace substrings of text from a larger string
+
