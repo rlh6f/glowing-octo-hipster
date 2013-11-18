@@ -3,6 +3,13 @@ Q1: - What are the three uses of the curly brackets {} in Ruby?
 2) to create a new hash object
 3) string variable interpolation, used in context with double quotes and "#{variable}"
 
-Q2: What is a regular expression and what is a common use for them?
+Q2: - What is a regular expression and what is a common use for them?
 A regular expression is a string pattern matching language that is used to find, extract, and replace substrings of text from a larger string
+
+Q3: - What is the difference between how a String, a symbol, a FixNum, and a Float are stored in Ruby?
+A Ruby symbol is immutable and there is only one memory object for a given symbol name.
+A Ruby string can be changed and every usage/instance of a string creates a distinct in-memory instantiation of the string.
+FixNums are integers that are < 31/63 bits (depending on 32-bit or 64-bit architecture). They are immutable like symbols.  They simply exist and cannot be created explicitly.
+Floats are double-precision 64-bit numbers that are inexact representations of numbers.  Each instantiation of a float gets a unique ObjectID in memory.
+
 
