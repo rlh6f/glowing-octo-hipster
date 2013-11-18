@@ -26,3 +26,7 @@ If you were trying to create a push/pop stack
 If you were working with numbered lists of items where the specific order of the items was important
 If you were trying to minimize memory usage
 
+Q7: - What is your favorite thing about Ruby so far?
+It is embraces TIMTOWTDI as Perl does.
+It obviously makes an effort to remove as much of the "hassle" from programming as possible.
+
