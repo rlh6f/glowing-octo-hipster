@@ -9,4 +9,9 @@ class EvenNumber
     end
   end
 
+  def next
+    @value +=2
+  end
+
+
 end

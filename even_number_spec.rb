@@ -8,7 +8,7 @@ describe EvenNumber do
   end
 
   it "should get the next even number" do
-      pending
+    EvenNumber.new(40).next.should eq 42
   end
 
   it "should compare even numbers" do
