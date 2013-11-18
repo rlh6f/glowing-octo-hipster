@@ -30,3 +30,9 @@ Q7: - What is your favorite thing about Ruby so far?
 It is embraces TIMTOWTDI as Perl does.
 It obviously makes an effort to remove as much of the "hassle" from programming as possible.
 
+Q8: - What is your least favorite thing about Ruby so far?
+As I'm learning all the different ways to do things, I feel like I'm ready to charge out and start using Ruby to write code, except that I'm still inclined to write code the way I feel comfortable writing code, which isn't perhaps always the "ruby way".
+Now, maybe this is simply my mis-perception of the "ruby way" with the way a lot of Ruby programmers seem to like to write code (the difference is subtle, I understand).
+But, I feel like if I were writing the code the way I *want* to be writing it, that I'd somehow be "doing it wrong" even though the code would still work in the end.  I *want* to write nice happy elegant code, but I still feel like I'm struggling to think in this "ruby way"
+I'm trying to force myself to structure my code in ways that I'm not used to....hopefully it will become more second nature as I go along...
+
