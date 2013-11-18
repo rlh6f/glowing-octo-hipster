@@ -21,3 +21,8 @@ Q5: - What is the difference between a Range and an Array?
 A range is defined by a starting value, an ending value and an enumerator to move between the values.
 An array is made up of discretely defined in-memory object_id's for each individual element of the array.
 
+Q6: - Why would I use a Hash instead of an Array?
+If you were trying to create a push/pop stack
+If you were working with numbered lists of items where the specific order of the items was important
+If you were trying to minimize memory usage
+
