@@ -1,4 +1,4 @@
-equire "#{File.dirname(__FILE__)}/turkey"
+require "#{File.dirname(__FILE__)}/turkey"
 
 describe Turkey do
 
