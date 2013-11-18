@@ -12,4 +12,8 @@ A Ruby string can be changed and every usage/instance of a string creates a dist
 FixNums are integers that are < 31/63 bits (depending on 32-bit or 64-bit architecture). They are immutable like symbols.  They simply exist and cannot be created explicitly.
 Floats are double-precision 64-bit numbers that are inexact representations of numbers.  Each instantiation of a float gets a unique ObjectID in memory.
 
+Q4: - Are these two statements equivalent? Why or Why Not?
+    1. x, y = "hello", "hello"
+    2. x = y = "hello"
+No, they are not equivalent.  In #1 x and y will point to different object_id's in memory, in #2 x and y will point to the same object_id
 
