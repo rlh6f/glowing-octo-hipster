@@ -1,0 +1,3 @@
+class EvenNumber
+
+end
