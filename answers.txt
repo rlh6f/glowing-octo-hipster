@@ -17,3 +17,7 @@ Q4: - Are these two statements equivalent? Why or Why Not?
     2. x = y = "hello"
 No, they are not equivalent.  In #1 x and y will point to different object_id's in memory, in #2 x and y will point to the same object_id
 
+Q5: - What is the difference between a Range and an Array?
+A range is defined by a starting value, an ending value and an enumerator to move between the values.
+An array is made up of discretely defined in-memory object_id's for each individual element of the array.
+
