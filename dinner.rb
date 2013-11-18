@@ -13,6 +13,13 @@ class Dinner
   end
 
   def whats_for_dinner
-    whats_for_dinner="Tonight we have proteins #{menu.proteins.join(' and ')}, and veggies #{menu.veggies.join(', ').gsub(/_/,' ').split(' ').map(&:capitalize).insert(-2,'and').join(' ')}."
+    return "Tonight we have proteins #{menu.proteins.join(' and ')}, and veggies #{menu.veggies.join(', ').gsub(/_/,' ').split(' ').map(&:capitalize).insert(-2,'and').join(' ')}."
   end
+
+  def whats_for_dessert
+    return "Tonight we have #{menu.desserts.values.flatten.length} delicious desserts: \
+#{menu.desserts.map{|k,v| v if k != :molds}.join(', ').gsub(/_/,' ').split(' ').map(&:capitalize).join(' ')} and \
+#{menu.desserts.map{|k,v| v if k == :molds}.length} molds: #{menu.desserts.map{|k,v| v if k == :molds}.compact.flatten.map(&:capitalize).join(' and ')}."
+  end
+
 end
