@@ -1,4 +1,5 @@
 class EvenNumber
+  include Comparable
   attr_accessor :value
 
   def initialize(value)
@@ -9,12 +10,15 @@ class EvenNumber
     end
   end
 
-  def next
-    @value +=2
+  def succ
+    EvenNumber.new(@value + 1)
   end
 
   def <=> (other)
     @value <=> other.value
   end
 
+  def inspect
+    @value
+  end
 end
